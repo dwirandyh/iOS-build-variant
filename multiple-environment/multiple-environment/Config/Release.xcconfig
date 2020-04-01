@@ -1,0 +1,12 @@
+//
+//  Release.xcconfig
+//  multiple-environment
+//
+//  Created by Dwi Randy Herdinanto on 01/04/20.
+//  Copyright © 2020 dwirandyh.com. All rights reserved.x`x``
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https:\/\/dwirandyh.com\/
