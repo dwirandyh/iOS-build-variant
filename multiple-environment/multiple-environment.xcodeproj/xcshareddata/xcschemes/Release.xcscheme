@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D8135962434EFC400954B21"
-               BuildableName = "multiple-environment.app"
+               BuildableName = "My App.app"
                BlueprintName = "multiple-environment"
                ReferencedContainer = "container:multiple-environment.xcodeproj">
             </BuildableReference>
@@ -23,21 +23,11 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8D8135AC2434EFC500954B21"
-               BuildableName = "multiple-environmentTests.xctest"
-               BlueprintName = "multiple-environmentTests"
-               ReferencedContainer = "container:multiple-environment.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -55,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D8135962434EFC400954B21"
-            BuildableName = "multiple-environment.app"
+            BuildableName = "My App.app"
             BlueprintName = "multiple-environment"
             ReferencedContainer = "container:multiple-environment.xcodeproj">
          </BuildableReference>
@@ -72,14 +62,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D8135962434EFC400954B21"
-            BuildableName = "multiple-environment.app"
+            BuildableName = "My App.app"
             BlueprintName = "multiple-environment"
             ReferencedContainer = "container:multiple-environment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Release">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
