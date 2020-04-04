@@ -39,7 +39,7 @@
 		5EC51244DA1F9FA38DA6BB87 /* Pods-multiple-environmentTests.mlp staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiple-environmentTests.mlp staging.xcconfig"; path = "Target Support Files/Pods-multiple-environmentTests/Pods-multiple-environmentTests.mlp staging.xcconfig"; sourceTree = "<group>"; };
 		6D5CD485F7DE5E8439481DC2 /* Pods-multiple-environmentTests.cpe staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiple-environmentTests.cpe staging.xcconfig"; path = "Target Support Files/Pods-multiple-environmentTests/Pods-multiple-environmentTests.cpe staging.xcconfig"; sourceTree = "<group>"; };
 		7CB723982DEF2B0DD6170347 /* Pods-multiple-environmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiple-environmentTests.release.xcconfig"; path = "Target Support Files/Pods-multiple-environmentTests/Pods-multiple-environmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		8D8135972434EFC400954B21 /* LDG-Dev My App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LDG-Dev My App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8135972434EFC400954B21 /* LDG Dev - My App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LDG Dev - My App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D81359A2434EFC400954B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D81359C2434EFC400954B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8D81359E2434EFC400954B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		8D8135982434EFC400954B21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D8135972434EFC400954B21 /* LDG-Dev My App.app */,
+				8D8135972434EFC400954B21 /* LDG Dev - My App.app */,
 				8D8135AD2434EFC500954B21 /* multiple-environmentTests.xctest */,
 			);
 			name = Products;
@@ -195,7 +195,7 @@
 			);
 			name = "multiple-environment";
 			productName = "multiple-environment";
-			productReference = 8D8135972434EFC400954B21 /* LDG-Dev My App.app */;
+			productReference = 8D8135972434EFC400954B21 /* LDG Dev - My App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8D8135AC2434EFC500954B21 /* multiple-environmentTests */ = {
@@ -445,7 +445,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.cpe.dev";
-				PRODUCT_NAME = "CPE-Dev My App";
+				PRODUCT_NAME = "CPE Dev - My App";
+				SQUAD_NAME = "Customer Platform Experience - Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -548,7 +549,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.cpe.staging";
-				PRODUCT_NAME = "CPE-Staging My App";
+				PRODUCT_NAME = "CPE Staging - My App";
+				SQUAD_NAME = "Customer Platform Experience - Staging";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -651,7 +653,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.mat.dev";
-				PRODUCT_NAME = "MAT-Dev My App";
+				PRODUCT_NAME = "MAT Dev - My App";
+				SQUAD_NAME = "Marketing Automate - Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -754,7 +757,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.mat.staging";
-				PRODUCT_NAME = "MAT-Staging My App";
+				PRODUCT_NAME = "MAT Staging - My App";
+				SQUAD_NAME = "Marketing Automate - MAT";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -857,7 +861,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.mlp.dev";
-				PRODUCT_NAME = "MLP-Dev MyApp";
+				PRODUCT_NAME = "MLP Dev - My App";
+				SQUAD_NAME = "Micro Loan - Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -960,7 +965,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.mlp.staging";
-				PRODUCT_NAME = "MLP-Staging MyApp";
+				PRODUCT_NAME = "MLP Staging - My App";
+				SQUAD_NAME = "Micro Loan - Staging";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1063,7 +1069,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment";
-				PRODUCT_NAME = "Release-MyApp";
+				PRODUCT_NAME = "RC - My App";
+				SQUAD_NAME = "My App Release Candidate";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1222,7 +1229,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.ldg.dev";
-				PRODUCT_NAME = "LDG-Dev My App";
+				PRODUCT_NAME = "LDG Dev - My App";
+				SQUAD_NAME = "Lead Generation - Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1242,6 +1250,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.release";
 				PRODUCT_NAME = "My App";
+				SQUAD_NAME = "My App - Production";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1367,7 +1376,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dwirandyh.multiple-environment.ldg.staging";
-				PRODUCT_NAME = "LDG-Staging My App";
+				PRODUCT_NAME = "LDG Staging - My App";
+				SQUAD_NAME = "Lead Generation - Staging";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

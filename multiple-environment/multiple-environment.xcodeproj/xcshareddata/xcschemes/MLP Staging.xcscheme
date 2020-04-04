@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D8135962434EFC400954B21"
-               BuildableName = "Relase-MyApp.app"
+               BuildableName = "My App.app"
                BlueprintName = "multiple-environment"
                ReferencedContainer = "container:multiple-environment.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D8135962434EFC400954B21"
-            BuildableName = "Relase-MyApp.app"
+            BuildableName = "My App.app"
             BlueprintName = "multiple-environment"
             ReferencedContainer = "container:multiple-environment.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D8135962434EFC400954B21"
-            BuildableName = "Relase-MyApp.app"
+            BuildableName = "My App.app"
             BlueprintName = "multiple-environment"
             ReferencedContainer = "container:multiple-environment.xcodeproj">
          </BuildableReference>

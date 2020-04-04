@@ -27,20 +27,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squad Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwJ-xV-idk">
+                                <rect key="frame" x="20" y="250" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMd-bD-YgO">
+                                <rect key="frame" x="20" y="291" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Zbg-sL-V8B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="3V0-Ww-XUb"/>
+                            <constraint firstItem="tMd-bD-YgO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7f7-nH-Nwf"/>
                             <constraint firstItem="URN-n6-F3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FFL-1T-LLx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CwJ-xV-idk" secondAttribute="trailing" constant="20" id="HM4-dP-k3O"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="URN-n6-F3e" secondAttribute="trailing" constant="20" id="Z54-Lf-t9z"/>
+                            <constraint firstItem="tMd-bD-YgO" firstAttribute="top" secondItem="CwJ-xV-idk" secondAttribute="bottom" constant="20" id="ZFq-fQ-9g3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tMd-bD-YgO" secondAttribute="trailing" constant="20" id="gPa-zk-HeR"/>
                             <constraint firstItem="URN-n6-F3e" firstAttribute="top" secondItem="Zbg-sL-V8B" secondAttribute="bottom" constant="22" id="gdO-vI-Erq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zbg-sL-V8B" secondAttribute="trailing" constant="169" id="kUl-Pb-PVg"/>
                             <constraint firstItem="Zbg-sL-V8B" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="lZe-EB-Fey"/>
+                            <constraint firstItem="CwJ-xV-idk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yLB-Un-QWF"/>
+                            <constraint firstItem="CwJ-xV-idk" firstAttribute="top" secondItem="URN-n6-F3e" secondAttribute="bottom" constant="46" id="yer-II-D0i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="baseUrlLabel" destination="URN-n6-F3e" id="DU3-Ag-KdE"/>
+                        <outlet property="baseUrlLabel" destination="URN-n6-F3e" id="gqJ-iB-Aaz"/>
+                        <outlet property="squadNameLabel" destination="tMd-bD-YgO" id="wBh-e7-TYs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
