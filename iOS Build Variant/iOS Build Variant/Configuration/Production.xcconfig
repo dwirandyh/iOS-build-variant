@@ -1,0 +1,16 @@
+//
+//  production.xcconfig
+//  iOS Build Variant
+//
+//  Created by Dwi Randy Herdinanto on 13/07/20.
+//  Copyright © 2020 dwirandyh. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//Development.xcconfig
+BASE_URL = https:/$()/dwirandyh.com
+
+APP_NAME = MyApp
+APP_BUNDLE_ID = com.dwirandyh.myapp
